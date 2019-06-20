@@ -1,6 +1,5 @@
 body {
   font-family: Helvetica;
-  text-align: center;
   background-color: whitesmoke;
   color: rgb(75, 75, 75);
   margin: 0px;
@@ -28,6 +27,7 @@ a:hover {
 .container {
   width: 600px;
   margin: 0px auto;
+  text-align: center;
 }
 .card-white {
   background-color: white;
@@ -39,6 +39,7 @@ a:hover {
 #social-links {
   background-color: black;
   padding: 30px 50px;
+  text-align: center;
 }
 .img-circle {
   border-radius: 50%;
@@ -72,6 +73,11 @@ a:hover {
 }
 .text-50px {
   font-size: 50px;
+}
+#map {
+  width: 100%;
+  height: 300px;
+  margin: 0px auto;
 }
 
 @media (max-width: 960px) {
